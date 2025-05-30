@@ -1,0 +1,10 @@
+g++ -O2 -pthread -o p1 pthread1.cpp
+g++ -O2 -pthread -o crt crt.cpp
+g++ main.cc -o main -O2 -fopenmp -lpthread -std=c++11
+g++ -O2 -pthread -o test test.cpp
+g++ -O2 -fopenmp -o test test.cpp
+g++ -O2 -pthread -o pro profiling.cpp
+g++ -O2 -fopenmp -o pro profiling.cpp
+g++ -O2 -fopenmp -o ntt4 ntt4.cpp
+g++ -O2 -pthread -o nttx nttx.cpp
+g++ -O2 -fopenmp -o nttx nttx.cpp
