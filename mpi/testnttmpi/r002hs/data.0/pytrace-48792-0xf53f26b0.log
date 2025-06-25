@@ -1,0 +1,31 @@
+
+62132 : 0x14d2f53f5399 : 3 : logger_init :  LOG FILE OPENED (by collectunits.logger), level: 4
+62132 : 0x14d2f53f5449 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f5410ed8 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f549976d : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f54d79d5 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f54e0da2 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f54f46c3 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f552cca9 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f5543860 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f555a28d : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f558aef5 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f55e50bb : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f5630a72 : 4 : pytrace_start_profiling :  [CALLED]
+62132 : 0x14d2f5633cec : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f5726da9 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f57c909a : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f57e5fe7 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f57f16f7 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f585b7b7 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f587ec4a : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f58a7f82 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f58ab3b3 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f58b4d5b : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f591d464 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f599b24a : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f59b9152 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f59ce289 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f59e0558 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f59faa8d : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+62132 : 0x14d2f5a06fc2 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0

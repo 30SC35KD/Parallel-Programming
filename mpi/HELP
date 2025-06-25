@@ -1,0 +1,21 @@
+g++ -O2 -pthread -o ntt ntt.cpp
+mpic++ crt_mpi.cpp -o crt_mpi -O2 -fopenmp -lpthread -std=c++11
+mpiexec -np 5 ./crt_mpi 
+g++ -O2 -pthread -o crt crt.cpp
+mpic++ ntt_mpi.cpp -o ntt_mpi -O2 -fopenmp -lpthread -std=c++11
+mpiexec -np 4 ./ntt_mpi
+mpic++ ntt.cpp -o ntt -O2 -fopenmp -lpthread -std=c++11
+mpiexec -np 1 ./ntt
+mpic++ crt.cpp -o crt -O2 -fopenmp -lpthread -std=c++11
+mpiexec -np 1 ./crt
+mpic++ pp.cpp -o pp -O2 -fopenmp -lpthread -std=c++11
+mpiexec -np 8 ./pp
+export OMP_NUM_THREADS=4
+export OMP_NUM_THREADS=8
+mpic++ crt8_mpi.cpp -o crt8_mpi -O2 -fopenmp -lpthread -std=c++11
+mpiexec -np 8 ./crt8_mpi 
+
+mpirun -n 4 ./ntt_mpi &
+pid=$(pgrep -f ntt_mpi)
+perf record -p $pid -g -o ntt_mpi.perf
+perf report -i ntt_mpi.perf

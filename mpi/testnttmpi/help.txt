@@ -1,0 +1,3 @@
+ gcc .\ntt.cpp -o ntt -I D:\\mpi_lib\\Include -L D:\\mpi_lib\\Lib\\x64  -lmsmpi -lstdc++
+mpiexec -n 4 ntt.exe
+mpiexec -n 8 ntt.exe

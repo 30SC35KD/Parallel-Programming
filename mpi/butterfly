@@ -1,0 +1,13 @@
+for (int len = 2; len <= n; len <<= 1) {
+        //#pragma omp parallel for
+        int Wn = quick_mi(G, (p - 1) / len, p);
+        if (inv) Wn = quick_mi(Wn, p - 2, p);
+        for (int i = 0; i < n; i += len) {
+            int w = 1;
+            for (int j = 0; j < len / 2; ++j,w=barrett(w , Wn , p)) {
+                int u = a[i + j], v = barrett(w ,a[i + j + len / 2] , p);
+                a[i + j] = barrett((u + v),1, p);
+                a[i + j + len / 2] = barrett((u - v + p),1, p);
+            }
+        }
+    }

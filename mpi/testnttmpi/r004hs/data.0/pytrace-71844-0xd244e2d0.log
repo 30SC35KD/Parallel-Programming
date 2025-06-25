@@ -1,0 +1,21 @@
+
+17864 : 0x14d5d2450135 : 3 : logger_init :  LOG FILE OPENED (by collectunits.logger), level: 4
+17864 : 0x14d5d24501ca : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d246c5a8 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d2495336 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d24a4def : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d24ab9f2 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d24b1802 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d24d1a03 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d24d8a15 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d24dd147 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d24fcc96 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d2515f78 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d25203eb : 4 : pytrace_start_profiling :  [CALLED]
+17864 : 0x14d5d2521512 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d25424e9 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d25514ab : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d255eb59 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d2561c6b : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d2569139 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0
+17864 : 0x14d5d2595db9 : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x0

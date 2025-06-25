@@ -1,0 +1,7 @@
+average latency for n = 8 p = 104857601 : 0.158326 (ms) 
+average latency for n = 256 p = 104857601 : 0.140365 (ms) 
+average latency for n = 1024 p = 104857601 : 0.414009 (ms) 
+average latency for n = 4096 p = 104857601 : 1.20726 (ms) 
+average latency for n = 16384 p = 104857601 : 4.94838 (ms) 
+average latency for n = 65536 p = 104857601 : 18.8937 (ms) 
+average latency for n = 131072 p = 104857601 : 40.0202 (ms) 
