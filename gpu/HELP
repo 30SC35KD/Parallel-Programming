@@ -1,0 +1,9 @@
+g++ -O2 -pthread -o ntt ntt.cpp
+g++ -O2 -pthread -o mont mont.cpp
+g++ -O2 -pthread -o barrett barrett.cpp
+
+nvcc gntt.cu -o gntt -arch=sm_35 -O2
+nvcc gmont.cu -o gmont -arch=sm_35 -O2
+nvcc gbarrett.cu -o gbarrett -arch=sm_35 -O2
+nvcc settings.cu -o settings -arch=sm_35 -O2
+mpic++ crt_mpi.cpp -o crt_mpi -O2 -fopenmp -lpthread -std=c++11
